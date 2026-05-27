@@ -928,21 +928,13 @@ def conceptual_distance(str1, str2):
             else:
                 return 0.05
         if len(arg1) > 1 and len(arg2) > 1:
-            if arg1[1] == arg2[1]:
+            if arg1[1] == arg2[1]:  # 2nd word identical
                 return 0.02
             else:
                 return 1
         else:
             return 1
         return 1  # catch-all
-        #elif arg1[1] == arg2[1]:
-        #    inter_sectn = list(set(arg1) & set(arg2))
-        #    if len(inter_sectn) > 0:
-        #        return min(0.1, 0.5 / len(inter_sectn))
-        #    else:
-        #        return 0.1
-        #else:
-        #    return 0.99
     elif mode == "English":
         if arg1[0] + "-" + arg2[0] in s2v_noun_cache:
             sim_score = s2v_noun_cache[arg1[0] + "-" + arg2[0]]
@@ -961,7 +953,7 @@ def conceptual_distance(str1, str2):
             s2v_noun_cache[arg1[0] + "-" + arg2[0]] = sim_score
             return 1 - sim_score
     else:
-        return 1.5
+        return 1.0
 #print(conceptual_distance("dog", "puppy"))
 #print(conceptual_distance("dog", "chair"))
 # print(conceptual_distance('1. Block:1', '158. Block:158'))
