@@ -13,7 +13,7 @@ Details forthcoming.
 
 **nx.isomorphVF2cb(G1, G1)** - with *Conor Brady*
 
-An instrumented version of the famous VF2 algorithms. Adapted forsubgraph isomorphism and works on MultiDiGraphs in NetworkX. 
+An instrumented version of the famous VF2 algorithms. Adapted for subgraph isomorphism and works on MultiDiGraphs in NetworkX. 
 Example code:
 
 `G1 = nx.from_edgelist([('a','b'), ('b','c')])`
