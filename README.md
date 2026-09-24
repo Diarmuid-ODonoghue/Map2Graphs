@@ -1,5 +1,4 @@
-# Homomorphic Graph Search - HOGS
-
+## Homomorphic Graph Search - HOGS
 ## HOGS algorithm for Largest Common Edge Subgraph between 2 graphs
 ### Unlabeled or - with labels on edges and/or nodes.
 2 versions available
