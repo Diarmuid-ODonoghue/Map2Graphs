@@ -11,7 +11,9 @@ Also: 3 versions of knowledge graphs derived from human Analogy experiments - **
 
 Details forthcoming.
 
-**nx.isomorphVF2cb(G1, G1)** - with *Conor Brady*
+###Subgraph - Graph isomorphism
+
+`nx.isomorphVF2cb(G1, G1)` - with *Conor Brady*
 
 An instrumented version of the famous VF2 algorithms. Adapted for subgraph isomorphism and works on MultiDiGraphs in NetworkX. 
 Example code:
