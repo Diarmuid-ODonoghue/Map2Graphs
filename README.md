@@ -18,10 +18,13 @@ Example code:
 
 `G1 = nx.from_edgelist([('a','b'), ('b','c')])`
 
-`G2 = nx.from_edgelist([('a','b')])`
+`G2 = nx.from_edgelist([(1,2)])`
 
 `GM = MultiDiGraphMatcher(G1, G2)`
 
 `print(GM.mapping)`
 
-returns the dictionary: `{'a': 'a', 'b': 'b'}`
+returns the dictionary: `{'a': 1, 'b': 2}`
+
+**Restrict the allowed node-to-node mappings**
+To restrict the space of feasible mapping, change `semantic_feasibility(self, G1_node, G2_node)`
