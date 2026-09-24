@@ -12,7 +12,7 @@ Also: 3 versions of knowledge graphs derived from human Analogy experiments - **
 
 `nx.isomorphVF2cb(G1, G1)` - with *Conor Brady*
 
-The `isomorphvf2cb.py` file offers an instrumented version of the famous VF2 algorithms, relying only on the NetworkX package. VF2 has been  for subgraph isomorphism and works on MultiDiGraphs under NetworkX. 
+The `isomorphvf2cb.py` file offers an instrumented version of the famous VF2 algorithms, relying only on the NetworkX package. VF2 has been modified for subgraph isomorphism and works on MultiDiGraphs under NetworkX. 
 Example code:
 
 `G1 = nx.from_edgelist([('a','b'), ('b','c')])`
