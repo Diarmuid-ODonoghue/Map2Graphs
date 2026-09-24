@@ -10,3 +10,18 @@ Uses the Erdos Renyii graph generator.
 Also: 3 versions of knowledge graphs derived from human Analogy experiments - **Analogy Materials Corpus**. 
 
 Details forthcoming.
+
+**nx.isomorphVF2cb(G1, G1)** - with *Conor Brady*
+
+An instrumented version of the famous VF2 algorithms. Adapted forsubgraph isomorphism and works on MultiDiGraphs in NetworkX. 
+Example code:
+
+`G1 = nx.from_edgelist([('a','b'), ('b','c')])`
+
+`G2 = nx.from_edgelist([('a','b')])`
+
+`GM = MultiDiGraphMatcher(G1, G2)`
+
+`print(GM.mapping)`
+
+returns the dictionary: `{'a': 'a', 'b': 'b'}`
