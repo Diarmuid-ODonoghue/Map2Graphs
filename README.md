@@ -28,3 +28,10 @@ returns the dictionary: `{'a': 1, 'b': 2}`
 
 **Restrict the allowed node-to-node mappings**
 To restrict the space of feasible mapping, change `semantic_feasibility(self, G1_node, G2_node)`
+
+
+**References**
+
+Luigi P. Cordella, Pasquale Foggia, Carlo Sansone, Mario Vento, “A (Sub)Graph Isomorphism Algorithm for Matching Large Graphs”, IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 26, no. 10, pp. 1367-1372, Oct., 2004. 
+
+L. P. Cordella, P. Foggia, C. Sansone, M. Vento, “An Improved Algorithm for Matching Large Graphs”, 3rd IAPR-TC15 Workshop on Graph-based Representations in Pattern Recognition, Cuen, pp. 149-159, 2001. 
